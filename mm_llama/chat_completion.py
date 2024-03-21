@@ -100,5 +100,5 @@ if __name__ == '__main__':
         # ckpt_path='./checkpoints/7b-pretrain/7B-steps-4400-consolidated.pth',
         ckpt_path='./checkpoints/7b-finetune/7B-steps-6600-consolidated.pth',
         tokenizer_path='/home/michael/models/meta_llama2/tokenizer.model',
-        imagebind_ckpt_path='/home/michael/models/ImageBind/imagebind_huge.pth',
+        imagebind_ckpt_path='./checkpoints/imagebind/imagebind_huge.pth',
     )
