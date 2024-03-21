@@ -15,9 +15,9 @@ if [[ $MODEL_SIZE == "" ]]; then
     MODEL_SIZE="7B,13B,70B,7B-chat,13B-chat,70B-chat"
 fi
 
-# echo "Downloading LICENSE and Acceptable Usage Policy"
-# wget --continue ${PRESIGNED_URL/'*'/"LICENSE"} -O ${TARGET_FOLDER}"/LICENSE"
-# wget --continue ${PRESIGNED_URL/'*'/"USE_POLICY.md"} -O ${TARGET_FOLDER}"/USE_POLICY.md"
+echo "Downloading LICENSE and Acceptable Usage Policy"
+wget --continue ${PRESIGNED_URL/'*'/"LICENSE"} -O ${TARGET_FOLDER}"/LICENSE"
+wget --continue ${PRESIGNED_URL/'*'/"USE_POLICY.md"} -O ${TARGET_FOLDER}"/USE_POLICY.md"
 
 echo "Downloading tokenizer"
 wget --continue ${PRESIGNED_URL/'*'/"tokenizer.model"} -O ${TARGET_FOLDER}"/tokenizer.model"
