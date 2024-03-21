@@ -28,3 +28,4 @@ ipython_config.py
 # Others
 *.vscode
 *.DS_Store
+venv/
